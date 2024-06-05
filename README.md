@@ -2,8 +2,8 @@
 
 ### Overview
 - This project is a great experience for me to have a general look from top to down at the database design process.
-- During the implementation, I have figured out a new approach of the datase design process for this case.
-- That new approach is not only introducing another viewpoint but also a mindset shifting from production-oriented mindset to market-oriented mindset that I will explain in more details below. 
+- During the implementation, I have figured out another approach of the datase design process for this case.
+- The new approach shows a shift from production-oriented mindset to market-oriented mindset that I will explain in more details below. 
 
 ### Problem Statement:
 The task is to design and implement a Bus route schedule system. It needs to keep record of the following:
@@ -39,7 +39,7 @@ The task is to design and implement a Bus route schedule system. It needs to kee
 - I think those 2 mindsets (mentioned in the above images) applied for the case of Software Development Life Cycle (SDLC) and Rapid Application Development (RAD) (particularly, Prototyping) processeses too. 
 
 ### Logic of the New Approach:
-- Applying the 2nd mindset, I started first with the assumption what the bus system owner really needs. There are 2 main characters: drivers and passengers. Drivers may need bus tracking interface. Passengers may need bus tracking and purchase confirmation interfaces. From there, the bus owner can point out a GUI design he wants.
+- Applying the Market-oriented mindset, I started first with the assumption what the bus system owner really needs. There are 2 main characters: drivers and passengers. Drivers may need bus tracking interface. Passengers may need bus tracking and purchase confirmation interfaces. From there, the bus owner can point out a GUI design he wants.
 - Each interface like Associative Entities often includes various attributes coming from different entities. That’s why I could do Normalization process to break those Associate Entities into normalized entities. Then, I continued ERD model with relationships.
 <div align="center">
 <img width="500" alt="Capture" src="https://github.com/keasark/bus-system-database-design/assets/76891395/dac1fa82-37fe-4882-b7d2-f760fea2f2cc">
