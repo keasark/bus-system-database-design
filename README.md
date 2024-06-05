@@ -31,12 +31,12 @@ The task is to design and implement a Bus route schedule system. It needs to kee
 ## SOLUTION
 
 ### New Problem Approach:
-- During the process of transfering Business Rules into ERD Diagram, I realized that I was doing the process without knowing what I was doing for. Then, I changed the process of database design, so that everything could become more smoothly for my thought in this case. Please view the visualizations here for better clarification.
+- During the process of transfering Business Rules into ERD Diagram, I realized that I was doing the process without knowing what I was doing for. Then, I changed the process of database design, so that everything could become more smoothly for my thought in this case. Please view the visualization here for better clarification.
 <div align="center">
 <img width="600" alt="Database Design Process" src="https://github.com/keasark/bus-system-database-design/assets/76891395/56ae2699-a765-4ac1-b165-0592c220bf90">
 </div>
 <br>
-- I think those 2 mindsets (mentioned in the above images) applied for the case of Software Development Life Cycle (SDLC) and Rapid Application Development (RAD) (particularly, Prototyping) processeses too. 
+- I think those 2 mindsets (mentioned in the above image) applied for the case of Software Development Life Cycle (SDLC) and Rapid Application Development (RAD), particularly, Prototyping, processeses too. 
 
 ### Logic of the New Approach:
 - Applying the Market-oriented mindset, I started first with the assumption what the bus system owner really needs. There are 2 main characters: drivers and passengers. Drivers may need bus tracking interface. Passengers may need bus tracking and purchase confirmation interfaces. From there, the bus owner can point out a GUI design he wants.
